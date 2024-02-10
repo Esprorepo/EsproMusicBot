@@ -141,8 +141,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("VenomOwners")
-                await self.four.join_chat("Venom_Chatz")
+                await self.one.join_chat("EsproUpdate")
+                await self.one.join_chat("EsproSupport")
             except:
                 pass
             assistants.append(4)
